@@ -1,0 +1,85 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#top{
+	position: fixed;
+	margin-top: -415px;
+	background-color: #fff;
+	padding-top: 10px;
+	margin-left: -8px;
+	margin-right: -20px;
+	width: 100%;
+	height: 50px;
+}
+#logo{
+	padding-left: 15px;
+}
+#logo-title{
+	margin-left: 70px;
+	margin-top: -35px;
+	font-family:Lato, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+#main-ul{
+	list-style-type: none;
+	padding: 0;
+	margin-left: 330px;
+	margin-top: -45px;
+}
+.main-nav > li{
+	display: block;
+	color: #000;
+	width: 165px;
+	text-decoration: none;
+	float: right;
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+.cssmenu{
+	margin-left: 150px;
+}
+.img-about{
+	margin-left: 100px;
+	padding-top: 10px;
+}
+.img{
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.title-about{
+	margin-left: 120px;	
+}
+.title-day{
+	margin-left: 450px;
+	margin-top: -45px;	
+}
+.title-resour{
+	margin-left: 750px;
+	margin-top: -45px;	
+}
+.title-social{
+	margin-left: 1025px;
+	margin-top: -45px;	
+}
