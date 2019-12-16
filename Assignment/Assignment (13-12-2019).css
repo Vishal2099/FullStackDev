@@ -58,7 +58,10 @@
 
 }
 .cssmenu{
-	margin-left: 150px;
+	margin-left: 100px;
+}
+.active{
+	font-weight: bold;
 }
 .img-about{
 	margin-left: 100px;
@@ -82,4 +85,15 @@
 .title-social{
 	margin-left: 1025px;
 	margin-top: -45px;	
+}
+#cell-title{
+	margin-left: 320px;
+	margin-top: -240px;
+	color: #adaba5;
+	font-size: 80px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#body-about{
+	margin-left: 150px;
+	margin-top: 150px;
 }
