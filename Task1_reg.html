@@ -2,66 +2,128 @@
 <html>
 <head>
 	<title>Sample-Register</title>
-	<link rel="stylesheet" type="text/css" href="CSS_files/Task1_menu.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="CSS_files/Task1_menu.css">
+    <style>
+        .col-md-3 .ta1
+        {
+            font-size:20px;
+            text-align:center;
+            margin-left:-55px;
+        }
+        .col-md-3 .ta2
+        {
+            font-size:20px;
+            text-align:center;
+            margin-left:-55px;
+        }
+        .col-md-3 .ta3
+        {
+            font-size:20px;
+            text-align:center;
+            margin-left:-68px;
+        }
+        .col-md-3 .ta4
+        {
+            font-size:20px;
+            text-align:center;
+            margin-left:-55px;
+        }
+        .login{
+            margin-left: 300px;
+        }
+        </style>
 </head>
 <body>
-	<div class="logo">
-			<img id="pho" src="Pictures/Gitam Logo.jpg" width="10%"height="60%">
-			<h2 id="a1">Gitam University</h2>	
-		</div>
-	<div id="cssmenu">
-		<ul>
-			<li><a href="Task1_home.html">Home</a></li>
-			<li><a href="Task1_About.html">About Us</a></li>
-			<li><a href="Task1_Contact.html">Contact Us</a></li>
-			<li><a href="Task1_Login.html">Login</a></li>
-			<li class="active"><a href="Task1_Reg.html">Register</a></li>
-		</ul>
-	</div>
-	<table align="right">
-            <form>
-                <tr>
-                    <td colspan="2" align="center"><b>Login Form</b></td>
-                </tr>
-                <tr>
-                    <td>User name: </td>
-                    <td><input type="text" name="username"></td>
-                </tr>
-                <tr>
-                    <td>Password: </td>
-                    <td><input type="password" name="password"></td>
-                </tr>
-                <tr>
-                    <td>Gender: </td>
-                    <td><input type="radio" name="gender">Male
-                        <input type="radio" name="gender">Female
-                    </td>
-                </tr>
-                <tr>
-                    <td>Language: </td>
-                    <td><input type="checkbox" name="telugu">Telugu
-                        <input type="checkbox" name="english">English
-                        <input type="checkbox" name="hindi">Hindi
-                    </td>
-                </tr>
-                <tr>
-                    <td>City: </td>
-                    <td>
+    <div class="responsive" style="margin:0px;width:1408px;">
+        <div class="row" style="background-color:yellow;">
+            <div class="col-lg-2">
+                <img src="Pictures/Gitam1.jpg" style="margin-left:59px;" >
+            </div>
+            <div class="col-lg-2">
+                <img src="Pictures/Gitam2.jpg"/>
+            </div>
+            <div class="col-lg-4">
+                <img src="Pictures/GitamTitle.jpg"/ style="margin-left:40px; height:90%;">
+            </div>
+            <div class="col-lg-2">
+                <img src="Pictures/Gitam3.jpg"/ style="margin-left:59px;">
+            </div>
+            <div class="col-lg-2">
+                <img src="Pictures/Gitam4.jpg"/ >
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12" style="margin-left:-8px;padding:0px 8px;background-color: ">
+                    <div id='cssmenu'>
+                        <ul>
+                            <li><a href='Task1_home.html'>Home</a></li>
+                            <li><a href='Task1_About.html'>About Us</a></li>
+                            <li><a href='Task1_Contact.html'>Contact Us</a></li>
+                            <li><a href='Task1_Login.html'>Login</a></li>
+                            <li class="active"><a href="Task1_reg.html">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="background-color:#D3D3D3;">
+                <div class="col-md-3">
+                    <img src="Pictures/Aboutus.jpg"/ class="rounded-circle" height="150px" width="250px">
+                    <h1 class="ta1"><strong>About The Program</strong></h1>
+                </div>
+                <div class="col-md-3">
+                    <img src="Pictures/calender.jpg"/ class="rounded-circle" height="150px" width="250px">
+                    <h1 class="ta2"><strong>Day Wish Work Log</strong></h1>
+                </div>
+                <div class="col-md-3">
+                    <img src="Pictures/resources.jpg"/ class="rounded-circle" height="150px" width="250px">
+                    <h1 class="ta3"><strong>Resources</strong></h1>
+                </div>
+                <div class="col-md-3">
+                    <img src="Pictures/social.jpg"/ class="rounded-circle" height="150px" width="250px">
+                    <h1 class="ta4"><strong>Social Media Connect</strong></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row login">
+        <form>
+            <div class="col-md-12">
+                <label>Login Form</label>
+            </div>
+            <br>
+            <div class="col-mg-12">
+                <label>User Name :</label>
+                <input type="text" required placeholder="Enter User name">
+            </div>
+            <br>
+            <div class="col-md-12">
+                <label>Password :</label>
+                <input type="text" required placeholder="Enter Password" required pattern="([a-zA-Z]||\d||[_.$!@]){6,12}">
+            </div><br>
+            <div class="col-mg-12">
+                <label>Gender :  </label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </div>
+            <br>
+            <div class="col-mg-12">
+                <label>Language :</label>
+                <input type="checkbox" name="telugu">Telugu
+                <input type="checkbox" name="english">English
+                <input type="checkbox" name="hindi">Hindi
+            </div><br>
+            <div class="col-mg-12">
+                <label>City :</label>
                 <select>
                     <option value="Select">Select</option>
                     <option value="hyderabad">Hyderabad</option>
                     <option value="delhi">Delhi</option>
                     <option value="chennai">Chennai</option>
                 </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <input type="submit" name="submit">
-                        <input type="reset" name="reset">
-                    </td>
-                </tr>
-            </form>
-        </table>
+            <br>
+            <button type="submit" class="btn btn-default">Sign In</button>
+        </form>
+    </div>
 </body>
 </html>
